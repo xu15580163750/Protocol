@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ooo</title>
+<!--  <script src="ttt.js">
+
+  </script>-->
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    function fun(){
+        confirm('确认框,定时器执行完毕');
+    }
+    confirm('确认框');
+    let prompt1=prompt('提示框');
+    setTimeout(fun(),5000);
+</script>
